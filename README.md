@@ -12,8 +12,8 @@ make
 ./segformer_demo -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png  
 
 ![image](https://github.com/FeiGeChuanShu/segformer-tengine/blob/main/result.jpg)  
-tcco@meet:~/tengine-lite/build$ ./examples/tm_segformer -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png -r 10
-tengine-lite library version: 1.4-dev
+tcco@meet:~/tengine-lite/build$ ./examples/tm_segformer -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png -r 10  
+tengine-lite library version: 1.4-dev  
 Repeat [10] min 2774.082 ms, max 3876.586 ms, avg 3147.248 ms
 
 ## Reference  
