@@ -10,7 +10,7 @@ mkdir build
 cd build  
 cmake ..  
 make  
-./segformer_demo -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png  
+./segformer_demo -m ../models/segformer.b0.512x1024.city.tmfile -i ../demo.png  
 ```  
 ![image](https://github.com/FeiGeChuanShu/segformer-tengine/blob/main/result.jpg)  
 ```
