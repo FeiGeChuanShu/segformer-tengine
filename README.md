@@ -1,5 +1,5 @@
-## segformer-tengine  
-segformer semantic segmentation infer by tengine
+## Segformer-tengine  
+Segformer semantic segmentation infer by tengine
 ## 前言：
 记录一下Segformer部署在tengine上的折腾过程 - 小飞飞的文章 - 知乎
 https://zhuanlan.zhihu.com/p/397735148  
