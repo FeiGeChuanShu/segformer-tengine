@@ -5,11 +5,13 @@ Segformer semantic segmentation infer by tengine
 https://zhuanlan.zhihu.com/p/397735148  
 
 ## 运行结果：
-'mkdir build  
+'''  
+mkdir build  
 cd build  
 cmake ..  
 make  
-./segformer_demo -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png'  
+./segformer_demo -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png  
+'''  
 ![image](https://github.com/FeiGeChuanShu/segformer-tengine/blob/main/result.jpg)  
 tcco@meet:~/tengine-lite/build$ ./examples/tm_segformer -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png -r 10  
 tengine-lite library version: 1.4-dev  
