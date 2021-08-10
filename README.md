@@ -4,7 +4,7 @@ Segformer semantic segmentation infer by tengine
 记录一下Segformer部署在tengine上的折腾过程 - 小飞飞的文章 - 知乎
 https://zhuanlan.zhihu.com/p/397735148  
 ## TODO:
-1.融合reshape+transpose+matmul+add成一个op
+1.融合reshape+transpose+matmul+add成一个op  
 2.AVX/SSE加速matmul和softmax
 ## 运行结果：
 ```  
