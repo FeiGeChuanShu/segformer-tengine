@@ -12,7 +12,7 @@ cmake ..
 make  
 ./segformer_demo -m ../models/segformer.b0.512x1024.city.tmfile -i ../demo.png  
 ```  
-![image](https://github.com/FeiGeChuanShu/segformer-tengine/blob/main/result.jpg)  
+![image](https://github.com/FeiGeChuanShu/segformer-tengine/blob/main/segformer_result.jpg)  
 ```
 tcco@meet:~/segformer-tengine/build/segformer_demo -m ./segformer.b0.512x1024.city.tmfile -i ./demo.png -r 10  
 tengine-lite library version: 1.4-dev  
