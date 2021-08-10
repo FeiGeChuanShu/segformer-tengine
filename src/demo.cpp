@@ -289,8 +289,6 @@ int main(int argc, char* argv[])
         for (size_t w = 0; w < src.cols; w++)
         {
             int index = maskResize.at<uchar>(h, w);
-            if (index == 0)
-                continue;
             pRgb[w] = cv::Vec3b(cityscapes_palette[index][2] * 0.6 + pRgb[w][2] * 0.4, cityscapes_palette[index][1] * 0.6 + pRgb[w][1] * 0.4, cityscapes_palette[index][0] * 0.6 + pRgb[w][0] * 0.4);
         }
     }
